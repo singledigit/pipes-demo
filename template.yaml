@@ -12,7 +12,7 @@ Resources:
       CodeUri: .
       Description: Uses Rekognition APIs to detect text in S3 Objects and stores the text and labels in DynamoDB.
       MemorySize: 512
-      Timeout: 30
+      Timeout: 45
       Environment:
         Variables:
           TABLE_NAME:
